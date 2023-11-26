@@ -33,7 +33,7 @@ defaults:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -48,8 +48,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
+        working-directory: ./ridgehallwedding
         run: |
-          cd ridgehallwedding/
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
