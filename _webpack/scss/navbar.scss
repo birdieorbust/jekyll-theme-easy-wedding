@@ -1,6 +1,6 @@
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid var(--secondary-color);
+  border-bottom: 0px solid var(--secondary-color);
   text-transform: uppercase;
   font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: var(--primary-color);
@@ -71,7 +71,7 @@
 }
 
 .navbar-custom {
-  border-bottom: 3px solid var(--accent-color);
+  border-bottom: 0px solid var(--accent-color);
   box-shadow: #888 0px 1px 10px;
 }
 
@@ -99,6 +99,6 @@
   color: #fff;
 }
 .navbar-custom.top-nav-collapse {
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 0px solid var(--secondary-color);
   box-shadow: #888 0px 1px 10px;
 }
