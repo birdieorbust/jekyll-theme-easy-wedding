@@ -4,12 +4,12 @@
   "description": "Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.",
   "main": "index.js",
   "directories": {
-    "example": "example"
+    "example": "ridgehallwedding"
   },
   "scripts": {
     "start": "npm run serve:webpack & sleep 3 && npm run serve:jekyll",
     "serve:webpack": "webpack --mode development --watch",
-    "serve:jekyll": "bundle exec jekyll serve -s example --livereload",
+    "serve:jekyll": "bundle exec jekyll serve -s ridgehallwedding --livereload",
     "build": "npm run build:webpack && npm run build:jekyll",
     "build:webpack": "webpack --mode production",
     "build:jekyll": "JEKYLL_ENV=production bundle exec jekyll build",
