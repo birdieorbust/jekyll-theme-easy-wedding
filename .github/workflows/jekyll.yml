@@ -26,10 +26,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-defaults:
-  run:
-    working-directory: ridgehallwedding
-
 jobs:
   # Build job
   build:
